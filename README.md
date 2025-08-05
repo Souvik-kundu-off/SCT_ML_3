@@ -33,6 +33,9 @@ In this project, I implemented an **SVM model** to predict and classify customer
 
 ---
 
+## 📂 Project Structure
+
+
 ## ⚙️ Steps Performed
 
 1. **Data Preprocessing**
@@ -84,6 +87,4 @@ Click below to open the notebook directly in **Google Colab**:
 
 - **Souvik Kundu**
 - GitHub: [Souvik-kundu-off](https://github.com/Souvik-kundu-off)
-
-## 📂 Project Structure
 
