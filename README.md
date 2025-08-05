@@ -1,23 +1,24 @@
-# Customer Classification using Support Vector Machine (SVM)
+# Cats vs Dogs Classification using Support Vector Machine (SVM)
 
 This project was completed as part of my internship at **SkillCraft Technology**.  
-The objective of this task was to implement a **Support Vector Machine (SVM)** model to classify customers based on their data.
+The objective of this task was to implement a **Support Vector Machine (SVM)** model to classify images of cats and dogs using the **Kaggle Cats vs Dogs dataset**.
 
 ---
 
 ## 📌 Project Overview
 
-Classification is a core machine learning task that helps businesses categorize customers for better decision-making.  
-In this project, I implemented an **SVM model** to predict and classify customer categories using a given dataset.
+Image classification is a fundamental task in computer vision.  
+In this project, I used an **SVM classifier** to distinguish between images of cats and dogs.  
+The dataset was preprocessed into numerical features suitable for machine learning.
 
 ---
 
 ## 📊 Dataset
 
-- **Dataset Used:** Customer dataset provided as part of the internship task  
+- **Dataset Used:** [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)  
 - The dataset includes:
-  - Demographic and behavioral features  
-  - Labels for classification  
+  - Images of cats  
+  - Images of dogs  
 
 ---
 
@@ -30,42 +31,41 @@ In this project, I implemented an **SVM model** to predict and classify customer
   - matplotlib  
   - seaborn  
   - scikit-learn  
+  - OpenCV / PIL (for image preprocessing)  
 
 ---
 
 ## 📂 Project Structure
 
 
+---
+
 ## ⚙️ Steps Performed
 
 1. **Data Preprocessing**
-   - Loaded and cleaned the dataset
-   - Checked for missing values
-   - Encoded categorical variables (if any)
+   - Loaded the Kaggle Cats vs Dogs dataset  
+   - Resized and converted images to grayscale  
+   - Flattened images into feature vectors  
+   - Created training and testing sets  
 
-2. **Exploratory Data Analysis (EDA)**
-   - Visualized feature distributions
-   - Analyzed correlations between features
+2. **Model Training**
+   - Applied **Support Vector Machine (SVM)** with different kernels  
+   - Tuned hyperparameters for better performance  
 
-3. **Model Training**
-   - Split data into training and testing sets
-   - Trained the **SVM classifier**
-   - Tuned hyperparameters (kernel, C, gamma)
+3. **Model Evaluation**
+   - Evaluated accuracy, precision, recall, and F1-score  
+   - Plotted confusion matrix  
 
-4. **Model Evaluation**
-   - Calculated accuracy, precision, recall, and F1-score
-   - Displayed confusion matrix and classification report
-
-5. **Visualization**
-   - Plotted decision boundaries (if applicable)
-   - Showed classification results  
+4. **Visualization**
+   - Displayed sample predictions for cats and dogs  
 
 ---
 
 ## 📈 Results
 
-- The **SVM model** achieved strong accuracy in classifying customers.
-- Results showed clear decision boundaries between classes.
+- The **SVM classifier** successfully classified cat and dog images.  
+- Achieved high accuracy on the test set.  
+- Sample predictions demonstrated good generalization ability.
 
 ---
 
@@ -77,8 +77,17 @@ Click below to open the notebook directly in **Google Colab**:
 
 ---
 
+## 📌 Future Work
+
+- Use deep learning (CNNs) for higher accuracy  
+- Perform data augmentation to improve robustness  
+- Deploy as a web app for real-time predictions  
+
+---
+
 ## 🏷️ Acknowledgement
 
+- Dataset Source: [Kaggle Dogs vs Cats](https://www.kaggle.com/c/dogs-vs-cats/data)  
 - Internship Task by **SkillCraft Technology**
 
 ---
@@ -87,4 +96,3 @@ Click below to open the notebook directly in **Google Colab**:
 
 - **Souvik Kundu**
 - GitHub: [Souvik-kundu-off](https://github.com/Souvik-kundu-off)
-
