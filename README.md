@@ -77,13 +77,6 @@ Click below to open the notebook directly in **Google Colab**:
 
 ---
 
-## 📌 Future Work
-
-- Use deep learning (CNNs) for higher accuracy  
-- Perform data augmentation to improve robustness  
-- Deploy as a web app for real-time predictions  
-
----
 
 ## 🏷️ Acknowledgement
 
